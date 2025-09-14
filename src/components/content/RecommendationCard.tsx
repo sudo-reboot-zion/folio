@@ -1,4 +1,3 @@
-import clsx from 'clsx';
 import React from 'react';
 
 function RecommendCard({ name, testimony,role}: { name: string; testimony: string, role:string}) {

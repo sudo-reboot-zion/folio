@@ -1,4 +1,3 @@
-import { ArrowDownRight } from "lucide-react"  
 
 export const navLinks = [
   { name: 'github', href: 'https://github.com/Baah-Danso-Kenneth', isModal: false },

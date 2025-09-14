@@ -8,13 +8,19 @@ import { motion, AnimatePresence } from 'framer-motion'
 import PortfolioModal from '../content/portfolioModal'
 import ConnectModal from '../content/ConnectModal'
 
+type ConnectItem = {
+  name?: string;
+  isConnect?: boolean;
+};
+
+
 function Header() {
   const [currentPath, setCurrentPath] = useState('/')
   const [showMobileMenu, setShowMobileMenu] = useState(false)
   const [showPortfolio, setShowPortfolio] = useState(false)
   const [showConnect, setShowConnect] = useState(false)
 
-  function handleNavClick(href: any) {
+  function handleNavClick(href: string) {
     if (href !== '#') {
       setCurrentPath(href)
     }
@@ -43,8 +49,8 @@ function Header() {
     setShowConnect(false)
   }
 
-  // Helper function to check if item is a connect button
-  function isConnectItem(item: any) {
+
+  function isConnectItem(item: ConnectItem): boolean {
     return item.name === 'lets talk' || 
            item.name === "lets'talk" || 
            item.name === 'connect' || 

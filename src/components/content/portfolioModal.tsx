@@ -42,32 +42,32 @@ function PortfolioModal({
     }
   }
 
-  const modalVariants = {
-    hidden: { 
-      opacity: 0,
-      scale: 0.8,
-      y: 50
-    },
-    visible: { 
-      opacity: 1,
-      scale: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        stiffness: 300,
-        damping: 25,
-        duration: 0.3
-      }
-    },
-    exit: { 
-      opacity: 0,
-      scale: 0.8,
-      y: 50,
-      transition: {
-        duration: 0.2
-      }
-    }
-  }
+  // const modalVariants = {
+  //   hidden: { 
+  //     opacity: 0,
+  //     scale: 0.8,
+  //     y: 50
+  //   },
+  //   visible: { 
+  //     opacity: 1,
+  //     scale: 1,
+  //     y: 0,
+  //     transition: {
+  //       type: "spring",
+  //       stiffness: 300,
+  //       damping: 25,
+  //       duration: 0.3
+  //     }
+  //   },
+  //   exit: { 
+  //     opacity: 0,
+  //     scale: 0.8,
+  //     y: 50,
+  //     transition: {
+  //       duration: 0.2
+  //     }
+  //   }
+  // }
 
   const backdropVariants = {
     hidden: { opacity: 0 },
@@ -177,7 +177,7 @@ function PortfolioModal({
                     Portfolio PDF
                   </h3>
                   <p className="text-gray-600 mb-6">
-                    Your browser doesn't support PDF viewing. Please download the file to view it.
+                    Your browser doesn&apos;t support PDF viewing. Please download the file to view it.
                   </p>
                   <motion.button
                     onClick={downloadPortfolio}

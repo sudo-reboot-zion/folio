@@ -9,7 +9,7 @@ import PortfolioModal from '../content/portfolioModal';
 
 function Footer() {
     const [scrolled, setScrolled] = useState(false);
-    const [_, setShowToggle] = useState(false);
+    const [, setShowToggle] = useState(false);
     const [activeSection, setActiveSection] = useState('description');
     const [showPortfolio, setShowPortfolio] = useState(false) 
 
@@ -133,45 +133,45 @@ function Footer() {
         return activeSection === navHref;
     };
 
-    const buttonVariants = {
-        rest: { 
-            scale: 1,
-            color: "rgb(255, 255, 255)" 
-        },
-        hover: { 
-            scale: 1.05,
-            color: "rgb(var(--primary-color))",
-            transition: {
-                type: "spring",
-                stiffness: 400,
-                damping: 10
-            }
-        },
-        tap: { 
-            scale: 0.95,
-            transition: {
-                type: "spring",
-                stiffness: 400,
-                damping: 10
-            }
-        }
-    };
+    // const buttonVariants = {
+    //     rest: { 
+    //         scale: 1,
+    //         color: "rgb(255, 255, 255)" 
+    //     },
+    //     hover: { 
+    //         scale: 1.05,
+    //         color: "rgb(var(--primary-color))",
+    //         transition: {
+    //             type: "spring",
+    //             stiffness: 400,
+    //             damping: 10
+    //         }
+    //     },
+    //     tap: { 
+    //         scale: 0.95,
+    //         transition: {
+    //             type: "spring",
+    //             stiffness: 400,
+    //             damping: 10
+    //         }
+    //     }
+    // };
 
-    const linkVariants = {
-        rest: { 
-            x: 0,
-            y: 0
-        },
-        hover: { 
-            x: 2,
-            y: -2,
-            transition: {
-                type: "spring",
-                stiffness: 300,
-                damping: 10
-            }
-        }
-    };
+    // const linkVariants = {
+    //     rest: { 
+    //         x: 0,
+    //         y: 0
+    //     },
+    //     hover: { 
+    //         x: 2,
+    //         y: -2,
+    //         transition: {
+    //             type: "spring",
+    //             stiffness: 300,
+    //             damping: 10
+    //         }
+    //     }
+    // };
 
     return (
         <div className='h-auto border-t font-dmMono' id="footer">
