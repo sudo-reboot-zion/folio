@@ -268,11 +268,9 @@ function Footer() {
                     </div>
                     
                     <motion.p 
-                        className='text-center text-[7px] font-nunito md:text-[10px] lg:text-[12px] uppercase mb-3'
-                        animate={{ opacity: [0.5, 1, 0.5] }}
-                        transition={{ duration: 2, repeat: Infinity }}
+                        className='text-center  text-primary-color font-nunito md:text-[10px] lg:text-[18px]   mb-3'
                     >
-                        we love to code
+                        kwadwobaahdanso@gmail.com
                     </motion.p>
                 </div>
 
@@ -323,14 +321,13 @@ function Footer() {
             </div>
 
             {/* Copyright Section */}
-            <motion.div 
-                className='uppercase text-[13px] py-4'
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.5, duration: 0.5 }}
-            >
-                <p className='text-center'>&copy; 2025 akatadeveloper</p>
-            </motion.div>
+                    <motion.p 
+                        className='text-center text-[7px] uppercase font-nunito md:text-[10px] lg:text-[12px]  mb-3'
+                        animate={{ opacity: [0.5, 1, 0.5] }}
+                        transition={{ duration: 2, repeat: Infinity }}
+                    >
+                        2025 &copy; akata developer
+                    </motion.p>
             
             {/* Portfolio Modal */}
             <PortfolioModal 

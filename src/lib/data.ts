@@ -41,23 +41,23 @@ export const skills=[
 
 export const projectData = [
   {
-    "href": "/projects/ecommerce-platform",
-    "image": "/images/pr_cover.png",
-    "title": "E-Commerce Platform",
-    "description": "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and secure payment processing."
+    "href": "https://have-tune-cycle-frontend.vercel.app/",
+    "image": "/images/tune-cover.png",
+    "title": "TuneCycle",
+    "description": "A full-stack project built with nextjs- django restframework about music leasing."
   },
   {
-    "href": "/projects/task-management-app",
-    "image": "/images/pr_cover.png",
-    "title": "Task Management App",
-    "description": "Modern task management application built with Next.js and TypeScript. Includes drag-and-drop functionality, real-time collaboration, and progress tracking."
+    "href": "https://saloonconnect.vercel.app/",
+    "image": "/images/connect.png",
+    "title": "Saloon Connect",
+    "description": "Client side of babering Saloon design"
   },
-  {
-    "href": "/projects/weather-dashboard",
-    "image": "/images/pr_cover.png",
-    "title": "Weather Dashboard",
-    "description": "Interactive weather dashboard with location-based forecasts, historical data visualization, and customizable alerts. Built using React and weather APIs."
-  }
+  // {
+  //   "href": "/projects/weather-dashboard",
+  //   "image": "/images/pr_cover.png",
+  //   "title": "Weather Dashboard",
+  //   "description": "Interactive weather dashboard with location-based forecasts, historical data visualization, and customizable alerts. Built using React and weather APIs."
+  // }
 ]
 
 

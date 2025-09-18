@@ -28,7 +28,7 @@ function MainBaseContent() {
         <div>
           <h1 className='font-dmMono text-center lg:text-lg leading-relaxed'>
             I&apos;m a passionate full-stack developer who transforms ideas into digital experiences. 
-            With expertise in modern web technologies like React, Next.js, and Node.js, I create 
+            With expertise in modern web technologies like React, Next.js, and Django, I create 
             scalable applications that solve real-world problems. From responsive user interfaces 
             to robust backend systems, I bring creativity and technical precision to every project. 
             When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to 

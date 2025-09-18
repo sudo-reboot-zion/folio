@@ -41,13 +41,14 @@ function ProjectCard({ href, image, title, description }: ProjectCardProps) {
         {/* Read More Button */}
         <div className='relative mt-6'>
           <div className='absolute top-1 w-full h-[100%] rounded-full bg-[#fff]'/>
-          <Link 
+          <a 
             href={href}
-            className='relative inline-flex  w-full text-center font-dmMono  justify-center items-center gap-5 bg-primary-color text-white font-medium text-base sm:text-lg px-6 py-2 rounded-full transition-all duration-200 group shadow-lg hover:shadow-xl'
+            target='_blank'
+            className='relative inline-flex  w-full text-center uppercase font-dmMono  justify-center items-center gap-5 bg-primary-color text-white font-medium text-base sm:text-lg px-6 py-2 rounded-full transition-all duration-200 group shadow-lg hover:shadow-xl'
           >
-            Read More
+            visit site
             <ArrowUpRight className='w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200' />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
